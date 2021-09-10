@@ -22,7 +22,7 @@
 
         <!-- Styles -->
         {{-- 次の1行を削除 --}}
-        <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         {{-- 次の1行を追記 --}}
         <link href="{{ asset('css/profile.css') }}" rel="stylesheet">
     </head>
