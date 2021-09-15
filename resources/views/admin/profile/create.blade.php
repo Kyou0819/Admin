@@ -21,7 +21,7 @@
                         </ul>
                     @endif
                     <div class="form-group row">
-                        <label class="col-md-2" for="name">氏名(name)</label>
+                        <label class="col-md-2" for="name">名前(name)</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="name" value="{{ old('name') }}">
                         </div>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="introduction">自己紹介欄(introduction)</label>
+                        <label class="col-md-2" for="introduction">自己紹介(introduction)</label>
                         <div class="col-md-10">
                             <textarea class="form-control" name="introduction" rows="5">{{ old('introduction') }}</textarea>
                         </div>
