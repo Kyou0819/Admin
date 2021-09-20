@@ -13,7 +13,7 @@ class CreateHistories01Table extends Migration
      */
     public function up()
     {
-        Schema::create('histories01', function (Blueprint $table) {
+        Schema::create('history01s', function (Blueprint $table) {
             $table->id();
             $table->integer('profile_id');
             $table->string('edited_at');
@@ -28,6 +28,6 @@ class CreateHistories01Table extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('histories01');
+        Schema::dropIfExists('history01s');
     }
 }
